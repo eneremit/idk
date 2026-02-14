@@ -1,0 +1,90 @@
+advanced css 
+.sb-inner{
+  -webkit-text-size-adjust:100%;
+  text-size-adjust:100%;
+}
+
+.sb-inner,
+.sb-inner *{
+  -webkit-text-size-adjust:100%;
+  text-size-adjust:100%;
+}
+
+.sb-inner .sb-widget.sb-widget-eneremit{
+  width:100%;
+  max-width:100%;
+}
+
+.sb-inner #eneremit-activity-widget{
+  width:100%;
+  max-width:100%;
+  display:block;
+  font-family:inherit;
+  font-size:11px;
+  line-height:17px;
+  overflow:hidden;
+}
+
+.sb-inner #eneremit-activity-widget a,
+.sb-inner #eneremit-activity-widget a:link,
+.sb-inner #eneremit-activity-widget a:visited{
+  border-bottom:0 !important;
+  padding-bottom:0 !important;
+  text-decoration:none !important;
+  color:inherit;
+}
+
+.sb-inner #eneremit-activity-widget .eneremit-row{
+  width:100%;
+  display:grid;
+  grid-template-columns:max-content minmax(0,1fr);
+  column-gap:0;
+  align-items:baseline;
+  margin-top:0.35em;
+}
+.sb-inner #eneremit-activity-widget .eneremit-row:first-child{margin-top:0;}
+
+.sb-inner #eneremit-activity-widget .eneremit-label,
+.sb-inner #eneremit-activity-widget .eneremit-value{
+  font-size:inherit;
+  line-height:inherit;
+}
+
+.sb-inner #eneremit-activity-widget .eneremit-label{
+  color:#ffffff;
+  font-weight:400;
+  white-space:nowrap;
+}
+.sb-inner #eneremit-activity-widget .eneremit-label::after{content:"\00a0";}
+
+.sb-inner #eneremit-activity-widget .eneremit-value{
+  color:#fec3c4;
+  font-weight:400;
+  min-width:0;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+
+.sb-inner #eneremit-activity-widget .eneremit-row:hover .eneremit-value{
+  text-decoration:underline;
+  text-decoration-thickness:1px;
+  text-underline-offset:3px;
+}
+
+@media only screen and (max-width: calc(var(--post-width) + 380px)){
+  .sb-inner .sb-widget.sb-widget-eneremit{
+    align-self:flex-start !important;
+  }
+
+  .sb-inner #eneremit-activity-widget{
+    overflow:visible;
+  }
+
+  .sb-inner #eneremit-activity-widget .eneremit-value{
+    white-space:normal;
+    overflow:visible;
+    text-overflow:clip;
+    overflow-wrap:break-word;
+    word-break:normal;
+    hyphens:auto;                                                                                                                                                                                                                                               
