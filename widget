@@ -1,0 +1,492 @@
+1) .sb-inner{
+  -webkit-text-size-adjust:100%;
+  text-size-adjust:100%;
+}
+
+.sb-inner,
+.sb-inner *{
+  -webkit-text-size-adjust:100%;
+  text-size-adjust:100%;
+}
+
+.sb-inner .sb-widget.sb-widget-eneremit{
+  width:100%;
+  max-width:100%;
+}
+
+.sb-inner #eneremit-activity-widget{
+  width:100%;
+  max-width:100%;
+  display:block;
+  font-family:inherit;
+  font-size:inherit;
+  line-height:1.55;
+  overflow:hidden;
+}
+
+.sb-inner #eneremit-activity-widget a,
+.sb-inner #eneremit-activity-widget a:link,
+.sb-inner #eneremit-activity-widget a:visited{
+  border-bottom:0 !important;
+  padding-bottom:0 !important;
+  text-decoration:none !important;
+  color:inherit;
+}
+
+.sb-inner #eneremit-activity-widget .eneremit-row{
+  width:100%;
+  display:grid;
+  grid-template-columns:max-content minmax(0,1fr);
+  column-gap:0;
+  align-items:baseline;
+  margin-top:0.35em;
+}
+.sb-inner #eneremit-activity-widget .eneremit-row:first-child{margin-top:0;}
+
+.sb-inner #eneremit-activity-widget .eneremit-label,
+.sb-inner #eneremit-activity-widget .eneremit-value{
+  font-size:inherit;
+  line-height:inherit;
+}
+
+.sb-inner #eneremit-activity-widget .eneremit-label{
+  color:#222222;
+  font-weight:400;
+  white-space:nowrap;
+}
+.sb-inner #eneremit-activity-widget .eneremit-label::after{content:"\00a0";}
+
+.sb-inner #eneremit-activity-widget .eneremit-value{
+  color:#613d12;
+  font-weight:400;
+  min-width:0;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+
+.sb-inner #eneremit-activity-widget .eneremit-row:hover .eneremit-value{
+  text-decoration:underline;
+  text-decoration-thickness:1px;
+  text-underline-offset:3px;
+}
+
+@media only screen and (max-width: calc(var(--post-width) + 380px)){
+  .sb-inner .sb-widget.sb-widget-eneremit{
+    align-self:flex-start !important;
+  }
+
+  .sb-inner #eneremit-activity-widget{
+    overflow:visible;
+  }
+
+  .sb-inner #eneremit-activity-widget .eneremit-value{
+    white-space:normal;
+    overflow:visible;
+    text-overflow:clip;
+    overflow-wrap:break-word;
+    word-break:normal;
+    hyphens:auto;
+  }
+}
+
+@media only screen and (min-width: calc(var(--post-width) + 381px)){
+  body.left .sb-inner{
+    align-items:flex-start !important;
+  }
+
+  body.left .sb-inner .sb-title,
+  body.left .sb-inner .sb-description{
+    width:100% !important;
+    max-width:100% !important;
+    display:block !important;
+    align-self:stretch !important;
+    text-align:left !important;
+  }
+
+  body.left .sb-inner .sb-description *{
+    text-align:inherit !important;
+  }
+
+  body.left .sb-inner .sb-widget.sb-widget-eneremit{
+    margin-left:0 !important;
+    margin-right:0 !important;
+    align-self:stretch !important;
+  }
+}
+
+.bruges-music-page{width:100%;}
+.bruges-music-wrap{width:min(750px,95vw);margin:0 auto;padding:calc(var(--gap-top-bottom,10rem)) 0;font-family:var(--font1);font-size:var(--font-size);color:rgb(var(--c-text));line-height:var(--line-height,1.8);}
+.bruges-music-header{text-align:center;margin-bottom:3rem;}
+.bruges-music-title{font-size:calc(var(--font-size) + 6px);font-weight:700;letter-spacing:0.1em;}
+.bruges-music-rule{margin:1.2rem auto 1.8rem;width:100%;max-width:520px;height:1px;background:rgba(var(--c-border),1);}
+.bruges-music-nav{display:flex;flex-wrap:nowrap;justify-content:center;align-items:center;gap:1em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:0.85em;letter-spacing:0.08em;border-bottom:1px solid rgba(var(--c-border),1);padding-bottom:1.2rem;}
+.bruges-music-nav a{color:rgb(var(--c-link));text-decoration:none;border-bottom:1px solid transparent;padding-bottom:2px;}
+.bruges-music-nav a:hover{color:rgb(var(--c-acc1));border-bottom-color:rgb(var(--c-acc1));}
+.bruges-music-embed{width:100%;border-top:1px solid rgba(var(--c-border),1);padding-top:5rem;}
+.bruges-music-iframe{width:100%;height:475px;border:0;display:block;background:transparent;border-radius:var(--round2,0);overflow:hidden;}
+.bruges-music-creds{position:fixed;right:29px;bottom:20px;font-size:10px;z-index:5;}
+.bruges-music-creds a{border-bottom:0;padding-bottom:0;}
+@media (max-width:900px){.bruges-music-nav{gap:0.6em;font-size:0.78em;}}
+@media (max-width:520px){.bruges-music-nav{gap:0.45em;font-size:0.72em;letter-spacing:0.06em;}}                                                                              2) #eneremit-activity-widget{
+  width:100%;
+  max-width:100%;
+  display:block;
+  font-family:inherit;
+  font-size:11px;
+  line-height:1.55;
+  margin-top:calc(var(--gap2, 1.5rem) * 0.55);
+  overflow:hidden;
+  -webkit-text-size-adjust:100%;
+  text-size-adjust:100%;
+}
+
+#eneremit-activity-widget a,
+#eneremit-activity-widget a:link,
+#eneremit-activity-widget a:visited{
+  border-bottom:0 !important;
+  padding-bottom:0 !important;
+  text-decoration:none !important;
+  color:inherit;
+}
+
+#eneremit-activity-widget .eneremit-row{
+  width:100%;
+  display:grid;
+  grid-template-columns:max-content minmax(0,1fr);
+  column-gap:0;
+  align-items:baseline;
+  margin-top:0.35em;
+}
+#eneremit-activity-widget .eneremit-row:first-child{margin-top:0;}
+
+#eneremit-activity-widget .eneremit-label,
+#eneremit-activity-widget .eneremit-value{
+  font-size:inherit;
+  line-height:inherit;
+}
+
+#eneremit-activity-widget .eneremit-label{
+  color:#222222;
+  font-weight:400;
+  white-space:nowrap;
+}
+#eneremit-activity-widget .eneremit-label::after{content:"\00a0";}
+
+#eneremit-activity-widget .eneremit-value{
+  color:#613d12;
+  font-weight:400;
+  min-width:0;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+
+#eneremit-activity-widget .eneremit-row:hover .eneremit-value{
+  text-decoration:underline;
+  text-decoration-thickness:1px;
+  text-underline-offset:3px;
+}
+
+#eneremit-activity-widget .eneremit-row:focus-visible{
+  outline:1px solid rgba(var(--c-acc1),0.55);
+  outline-offset:3px;
+  border-radius:2px;
+}
+
+@media only screen and (max-width: calc(var(--post-width) + 380px)){
+  #eneremit-activity-widget{
+    overflow:visible;
+  }
+  #eneremit-activity-widget .eneremit-value{
+    white-space:normal;
+    overflow:visible;
+    text-overflow:clip;
+    overflow-wrap:break-word;
+    word-break:normal;
+    hyphens:auto;
+  }
+}                                                                                                                                                                                                                                                             3) <div class="sb-widget sb-widget-eneremit" style="margin-top: var(--gap2);">
+  <div id="eneremit-activity-widget" aria-live="polite">
+    <a class="eneremit-row" id="eneremit-gr-link" href="https://www.goodreads.com/user/show/138343303" target="_blank" rel="noopener noreferrer">
+      <span class="eneremit-label">Last Read:</span>
+      <span class="eneremit-value" id="eneremit-gr-text">—</span>
+    </a>
+    <a class="eneremit-row" id="eneremit-lb-link" href="https://letterboxd.com/eneremit/" target="_blank" rel="noopener noreferrer">
+      <span class="eneremit-label">Last Watched:</span>
+      <span class="eneremit-value" id="eneremit-lb-text">—</span>
+    </a>
+    <a class="eneremit-row" id="eneremit-lfm-link" href="https://www.last.fm/user/eneremit" target="_blank" rel="noopener noreferrer">
+      <span class="eneremit-label" id="eneremit-lfm-label">Last Listened To:</span>
+      <span class="eneremit-value" id="eneremit-lfm-text">—</span>
+    </a>
+  </div>
+</div>
+
+<script>
+(function(){
+  function ready(fn){
+    if(document.readyState==="loading") document.addEventListener("DOMContentLoaded", fn);
+    else fn();
+  }
+
+  ready(function(){
+    var LASTFM_USER="eneremit";
+    var LASTFM_API_KEY="2c9671806d0d7138049c8cab7ba2be66";
+
+    var GOODREADS_PROFILE_URL="https://www.goodreads.com/user/show/138343303";
+    var GOODREADS_RSS_URLS=[
+      "https://www.goodreads.com/review/list_rss/138343303?ref=nav_mybooks&shelf=read",
+      "https://www.goodreads.com/review/list/138343303?shelf=read&rss=1"
+    ];
+
+    var LETTERBOXD_PROFILE_URL="https://letterboxd.com/eneremit/";
+    var LETTERBOXD_RSS="https://letterboxd.com/eneremit/rss/";
+
+    var LASTFM_REFRESH_MS=2*60*1000;
+    var RSS_REFRESH_MS=60*60*1000;
+
+    var BOOT_WINDOW_MS=90*1000;
+    var BOOT_EVERY_MS=20*1000;
+
+    var el={
+      grText:document.getElementById("eneremit-gr-text"),
+      grLink:document.getElementById("eneremit-gr-link"),
+      lbText:document.getElementById("eneremit-lb-text"),
+      lbLink:document.getElementById("eneremit-lb-link"),
+      lfText:document.getElementById("eneremit-lfm-text"),
+      lfLink:document.getElementById("eneremit-lfm-link"),
+      lfLabel:document.getElementById("eneremit-lfm-label"),
+      root:document.getElementById("eneremit-activity-widget")
+    };
+    if(!el.root) return;
+
+    function safe(s){ return (s||"").toString().trim(); }
+    function stripHtml(s){ return safe(s).replace(/<[^>]*>/g,"").replace(/\s+/g," ").trim(); }
+    function setTextIfGood(node,text){ var t=safe(text); if(t) node.textContent=t; }
+
+    var lastfmProfile="https://www.last.fm/user/"+encodeURIComponent(LASTFM_USER);
+
+    el.grLink.href=GOODREADS_PROFILE_URL;
+    el.lbLink.href=LETTERBOXD_PROFILE_URL;
+    el.lfLink.href=lastfmProfile;
+
+    var LS={
+      grText:"eneremit_widget_gr_text_v4",
+      lbText:"eneremit_widget_lb_text_v4"
+    };
+
+    function loadCached(){
+      try{
+        var grT=localStorage.getItem(LS.grText);
+        var lbT=localStorage.getItem(LS.lbText);
+        if(safe(grT)) el.grText.textContent=grT;
+        if(safe(lbT)) el.lbText.textContent=lbT;
+      }catch(e){}
+      el.grLink.href=GOODREADS_PROFILE_URL;
+      el.lbLink.href=LETTERBOXD_PROFILE_URL;
+      el.lfLink.href=lastfmProfile;
+    }
+
+    function saveCached(kind,text){
+      try{
+        if(kind==="gr" && safe(text)) localStorage.setItem(LS.grText, text);
+        if(kind==="lb" && safe(text)) localStorage.setItem(LS.lbText, text);
+      }catch(e){}
+    }
+
+    function looksLikeFeed(text){
+      var t=safe(text).slice(0,4000).toLowerCase();
+      return t.includes("<rss")||t.includes("<feed")||t.includes("<rdf:rdf")||t.includes("<channel");
+    }
+
+    function unwrapIfPreWrapped(text){
+      var pre=text.match(/<pre[^>]*>([\s\S]*?)<\/pre>/i);
+      if(!pre) return text;
+      return pre[1].replace(/&lt;/g,"<").replace(/&gt;/g,">").replace(/&amp;/g,"&");
+    }
+
+    async function fetchTextViaProxies(url){
+      url=safe(url);
+      if(!url) throw new Error("Missing URL");
+
+      var proxies=[
+        function(u){ return "https://api.allorigins.win/raw?url="+encodeURIComponent(u); },
+        function(u){ return "https://r.jina.ai/https://"+u.replace(/^https?:\/\//,""); }
+      ];
+
+      var lastErr=null;
+
+      for(var i=0;i<proxies.length;i++){
+        try{
+          var res=await fetch(proxies[i](url), { cache:"no-store" });
+          if(!res.ok) throw new Error("HTTP "+res.status);
+          var text=unwrapIfPreWrapped(await res.text());
+          if(looksLikeFeed(text)) return text;
+          lastErr=new Error("Not a feed");
+        }catch(e){
+          lastErr=e;
+        }
+      }
+      throw lastErr || new Error("All proxies failed");
+    }
+
+    function firstItemFromFeed(xmlText){
+      var doc=new DOMParser().parseFromString(xmlText,"text/xml");
+      if(doc.getElementsByTagName("parsererror")[0]) return null;
+
+      var item=doc.querySelector("item") || doc.querySelector("entry");
+      if(!item) return null;
+
+      function textOf(n){ return n && n.textContent ? n.textContent.trim() : ""; }
+
+      var creator=
+        textOf(item.querySelector("dc\\:creator")) ||
+        textOf(item.querySelector("*|creator")) ||
+        textOf(item.querySelector("creator")) ||
+        textOf(item.querySelector("author_name")) ||
+        textOf(item.querySelector("author"));
+
+      if(!creator){
+        var an=item.querySelector("author name");
+        if(an) creator=textOf(an);
+      }
+
+      return { title:textOf(item.querySelector("title")), creator:creator };
+    }
+
+    function parseGoodreads(rawTitle,creator){
+      var t=stripHtml(rawTitle);
+      var a=stripHtml(creator);
+
+      if(!a && / by /i.test(t)){
+        var parts=t.split(/ by /i);
+        t=parts[0].trim();
+        a=parts.slice(1).join(" by ").trim();
+      }
+
+      if(!t) return "";
+      return a ? (t+" — "+a) : t;
+    }
+
+    async function refreshGoodreadsOnce(){
+      for(var i=0;i<GOODREADS_RSS_URLS.length;i++){
+        try{
+          var xml=await fetchTextViaProxies(GOODREADS_RSS_URLS[i]);
+          var item=firstItemFromFeed(xml);
+          if(!item) continue;
+
+          var text=parseGoodreads(item.title,item.creator);
+          if(!safe(text)) continue;
+
+          setTextIfGood(el.grText,text);
+          el.grLink.href=GOODREADS_PROFILE_URL;
+          saveCached("gr",text);
+          return true;
+        }catch(e){}
+      }
+      return false;
+    }
+
+    function parseLetterboxdTitle(rawTitle){
+      var t=stripHtml(rawTitle);
+      if(!t) return "";
+
+      var base=t.split(" - ")[0].trim();
+
+      var paren=base.match(/^(.*?)(?:\s*\(|\s*\[)\s*(\d{4})\s*(?:\)|\])\s*.*$/);
+      if(paren) return paren[1].trim()+" ("+paren[2]+")";
+
+      var commaYear=base.match(/^(.+?),\s*(\d{4})(?:\D.*)?$/);
+      if(commaYear) return commaYear[1].trim()+" ("+commaYear[2]+")";
+
+      return base;
+    }
+
+    async function refreshLetterboxdOnce(){
+      try{
+        var xml=await fetchTextViaProxies(LETTERBOXD_RSS);
+        var item=firstItemFromFeed(xml);
+        if(!item) return false;
+
+        var text=parseLetterboxdTitle(item.title);
+        if(!safe(text)) return false;
+
+        setTextIfGood(el.lbText,text);
+        el.lbLink.href=LETTERBOXD_PROFILE_URL;
+        saveCached("lb",text);
+        return true;
+      }catch(e){
+        return false;
+      }
+    }
+
+    async function refreshLastfm(){
+      try{
+        var url="https://ws.audioscrobbler.com/2.0/?"+
+          new URLSearchParams({
+            method:"user.getrecenttracks",
+            user:LASTFM_USER,
+            api_key:LASTFM_API_KEY,
+            format:"json",
+            limit:"1"
+          }).toString()+
+          "&_="+Date.now();
+
+        var res=await fetch(url, { cache:"no-store" });
+        if(!res.ok) throw new Error("HTTP "+res.status);
+        var data=await res.json();
+
+        var track=data && data.recenttracks && data.recenttracks.track && data.recenttracks.track[0];
+        if(!track) throw new Error("No track");
+
+        var name=safe(track.name) || "—";
+        var artist=safe(track.artist && (track.artist["#text"] || track.artist.name)) || "—";
+
+        var nowPlaying=track["@attr"] && track["@attr"].nowplaying==="true";
+        el.lfLabel.textContent=nowPlaying ? "Now Listening To:" : "Last Listened To:";
+        setTextIfGood(el.lfText, name+" — "+artist);
+
+        el.lfLink.href=lastfmProfile;
+      }catch(e){
+        el.lfLink.href=lastfmProfile;
+      }
+    }
+
+    function refreshRssBoth(){
+      refreshGoodreadsOnce();
+      refreshLetterboxdOnce();
+    }
+
+    loadCached();
+    refreshLastfm();
+    refreshRssBoth();
+
+    var bootStart=Date.now();
+    var bootTimer=setInterval(async function(){
+      var inWindow=(Date.now()-bootStart)<BOOT_WINDOW_MS;
+
+      var needGR=(safe(el.grText.textContent)==="—");
+      var needLB=(safe(el.lbText.textContent)==="—");
+
+      if(!inWindow || (!needGR && !needLB)){
+        clearInterval(bootTimer);
+        return;
+      }
+
+      if(needGR) await refreshGoodreadsOnce();
+      if(needLB) await refreshLetterboxdOnce();
+    }, BOOT_EVERY_MS);
+
+    setInterval(refreshLastfm, LASTFM_REFRESH_MS);
+    setInterval(refreshRssBoth, RSS_REFRESH_MS);
+
+    document.addEventListener("visibilitychange", function(){
+      if(!document.hidden){
+        refreshLastfm();
+        refreshRssBoth();
+      }
+    }); 
+  });
+})();
+</script>
