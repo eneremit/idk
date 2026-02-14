@@ -1,0 +1,27 @@
+<!-------MUSIC PLAYER BY GLENTHEMES------->
+<div id="glenplayer07">
+   <div class="flamingo">
+       <div class="circleofdeath">
+           <div class="tinfoil">
+               <div class="oliveoil"></div>
+           </div>
+          <div class="crust">
+               <div class="cherry">
+                   <div class="music-controls">
+                       <i class="material-icons playy">play_arrow</i>
+                       <i class="material-icons pausee">pause</i>
+                   </div>
+               </div><!--cherry-->
+           </div><!--crust-->
+       </div><!--circleofdeath-->
+
+       <div class="music-info">
+           <div class="song-name">Comptine d'un autre été, l'après-midi</div>
+           <div class="artist-name">Yann Tiersen</div>
+       </div><!--music-info-->
+   </div><!--flamingo-->
+</div><!--glenplayer07-->
+
+<audio id="audio" src="https://file.garden/ZmN8fWXA7EDNZ5td/Comptine%20d'un%20autre%20e%CC%81te%CC%81%2C%20l'apre%CC%80s-midi%20%5B%20ezmp3.cc%20%5D.mp3" type="audio"></audio>
+<!----end music player---->
+</html> 4th blog player 
